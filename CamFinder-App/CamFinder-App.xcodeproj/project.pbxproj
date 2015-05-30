@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B498CA1B18F3110080E571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B498C91B18F3110080E571 /* main.m */; };
+		A7B498D01B18F3110080E571 /* CamFinder_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7B498CE1B18F3110080E571 /* CamFinder_App.xcdatamodeld */; };
+		A7B498D61B18F3110080E571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B498D41B18F3110080E571 /* Main.storyboard */; };
+		A7B498D81B18F3110080E571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B498D71B18F3110080E571 /* Images.xcassets */; };
+		A7B498DB1B18F3110080E571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B498D91B18F3110080E571 /* LaunchScreen.xib */; };
+		A7B498E71B18F3120080E571 /* CamFinder_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B498E61B18F3120080E571 /* CamFinder_AppTests.m */; };
+		A7B498F61B18F3960080E571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B498F21B18F3960080E571 /* AppDelegate.m */; };
+		A7B498F71B18F3960080E571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B498F51B18F3960080E571 /* ViewController.m */; };
+		A7B4990E1B18F4130080E571 /* CamFinder-Map.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498F91B18F4130080E571 /* CamFinder-Map.png */; };
+		A7B4990F1B18F4130080E571 /* CamFinder-Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FA1B18F4130080E571 /* CamFinder-Map@2x.png */; };
+		A7B499101B18F4130080E571 /* icon-find.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FB1B18F4130080E571 /* icon-find.png */; };
+		A7B499111B18F4130080E571 /* icon-find2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FC1B18F4130080E571 /* icon-find2.png */; };
+		A7B499121B18F4130080E571 /* icon-find2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FD1B18F4130080E571 /* icon-find2@2x.png */; };
+		A7B499131B18F4130080E571 /* icon-find3.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FE1B18F4130080E571 /* icon-find3.png */; };
+		A7B499141B18F4130080E571 /* icon-find3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B498FF1B18F4130080E571 /* icon-find3@2x.png */; };
+		A7B499151B18F4130080E571 /* icon-find4.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499001B18F4130080E571 /* icon-find4.png */; };
+		A7B499161B18F4130080E571 /* icon-find4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499011B18F4130080E571 /* icon-find4@2x.png */; };
+		A7B499171B18F4130080E571 /* icon-find5.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499021B18F4130080E571 /* icon-find5.png */; };
+		A7B499181B18F4130080E571 /* icon-find5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499031B18F4130080E571 /* icon-find5@2x.png */; };
+		A7B499191B18F4130080E571 /* icon-find6.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499041B18F4130080E571 /* icon-find6.png */; };
+		A7B4991A1B18F4130080E571 /* icon-find6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499051B18F4130080E571 /* icon-find6@2x.png */; };
+		A7B4991B1B18F4130080E571 /* icon-find7.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499061B18F4130080E571 /* icon-find7.png */; };
+		A7B4991C1B18F4130080E571 /* icon-find7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499071B18F4130080E571 /* icon-find7@2x.png */; };
+		A7B4991D1B18F4130080E571 /* icon-find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499081B18F4130080E571 /* icon-find@2x.png */; };
+		A7B4991E1B18F4130080E571 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B499091B18F4130080E571 /* User.png */; };
+		A7B4991F1B18F4130080E571 /* User@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B4990A1B18F4130080E571 /* User@2x.png */; };
+		A7B499201B18F4130080E571 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B4990D1B18F4130080E571 /* SettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B498E11B18F3110080E571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B498BC1B18F3110080E571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B498C31B18F3110080E571;
+			remoteInfo = "CamFinder-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7B498C41B18F3110080E571 /* CamFinder-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CamFinder-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B498C81B18F3110080E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B498C91B18F3110080E571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7B498CF1B18F3110080E571 /* CamFinder_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CamFinder_App.xcdatamodel; sourceTree = "<group>"; };
+		A7B498D51B18F3110080E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7B498D71B18F3110080E571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7B498DA1B18F3110080E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7B498E01B18F3110080E571 /* CamFinder-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CamFinder-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B498E51B18F3120080E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B498E61B18F3120080E571 /* CamFinder_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamFinder_AppTests.m; sourceTree = "<group>"; };
+		A7B498F11B18F3960080E571 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7B498F21B18F3960080E571 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7B498F41B18F3960080E571 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7B498F51B18F3960080E571 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7B498F91B18F4130080E571 /* CamFinder-Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CamFinder-Map.png"; sourceTree = "<group>"; };
+		A7B498FA1B18F4130080E571 /* CamFinder-Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CamFinder-Map@2x.png"; sourceTree = "<group>"; };
+		A7B498FB1B18F4130080E571 /* icon-find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find.png"; sourceTree = "<group>"; };
+		A7B498FC1B18F4130080E571 /* icon-find2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find2.png"; sourceTree = "<group>"; };
+		A7B498FD1B18F4130080E571 /* icon-find2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find2@2x.png"; sourceTree = "<group>"; };
+		A7B498FE1B18F4130080E571 /* icon-find3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find3.png"; sourceTree = "<group>"; };
+		A7B498FF1B18F4130080E571 /* icon-find3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find3@2x.png"; sourceTree = "<group>"; };
+		A7B499001B18F4130080E571 /* icon-find4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find4.png"; sourceTree = "<group>"; };
+		A7B499011B18F4130080E571 /* icon-find4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find4@2x.png"; sourceTree = "<group>"; };
+		A7B499021B18F4130080E571 /* icon-find5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find5.png"; sourceTree = "<group>"; };
+		A7B499031B18F4130080E571 /* icon-find5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find5@2x.png"; sourceTree = "<group>"; };
+		A7B499041B18F4130080E571 /* icon-find6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find6.png"; sourceTree = "<group>"; };
+		A7B499051B18F4130080E571 /* icon-find6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find6@2x.png"; sourceTree = "<group>"; };
+		A7B499061B18F4130080E571 /* icon-find7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find7.png"; sourceTree = "<group>"; };
+		A7B499071B18F4130080E571 /* icon-find7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find7@2x.png"; sourceTree = "<group>"; };
+		A7B499081B18F4130080E571 /* icon-find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-find@2x.png"; sourceTree = "<group>"; };
+		A7B499091B18F4130080E571 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		A7B4990A1B18F4130080E571 /* User@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User@2x.png"; sourceTree = "<group>"; };
+		A7B4990C1B18F4130080E571 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A7B4990D1B18F4130080E571 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B498C11B18F3110080E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B498DD1B18F3110080E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B498BB1B18F3110080E571 = {
+			isa = PBXGroup;
+			children = (
+				A7B498C61B18F3110080E571 /* CamFinder-App */,
+				A7B498E31B18F3120080E571 /* CamFinder-AppTests */,
+				A7B498C51B18F3110080E571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B498C51B18F3110080E571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498C41B18F3110080E571 /* CamFinder-App.app */,
+				A7B498E01B18F3110080E571 /* CamFinder-AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B498C61B18F3110080E571 /* CamFinder-App */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498F81B18F4130080E571 /* Image */,
+				A7B498F01B18F3960080E571 /* Appdelegate */,
+				A7B4990B1B18F4130080E571 /* Setting */,
+				A7B498F31B18F3960080E571 /* VC */,
+				A7B498D41B18F3110080E571 /* Main.storyboard */,
+				A7B498D71B18F3110080E571 /* Images.xcassets */,
+				A7B498D91B18F3110080E571 /* LaunchScreen.xib */,
+				A7B498CE1B18F3110080E571 /* CamFinder_App.xcdatamodeld */,
+				A7B498C71B18F3110080E571 /* Supporting Files */,
+			);
+			path = "CamFinder-App";
+			sourceTree = "<group>";
+		};
+		A7B498C71B18F3110080E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498C81B18F3110080E571 /* Info.plist */,
+				A7B498C91B18F3110080E571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B498E31B18F3120080E571 /* CamFinder-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498E61B18F3120080E571 /* CamFinder_AppTests.m */,
+				A7B498E41B18F3120080E571 /* Supporting Files */,
+			);
+			path = "CamFinder-AppTests";
+			sourceTree = "<group>";
+		};
+		A7B498E41B18F3120080E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498E51B18F3120080E571 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B498F01B18F3960080E571 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498F11B18F3960080E571 /* AppDelegate.h */,
+				A7B498F21B18F3960080E571 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		A7B498F31B18F3960080E571 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498F41B18F3960080E571 /* ViewController.h */,
+				A7B498F51B18F3960080E571 /* ViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A7B498F81B18F4130080E571 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A7B498F91B18F4130080E571 /* CamFinder-Map.png */,
+				A7B498FA1B18F4130080E571 /* CamFinder-Map@2x.png */,
+				A7B498FB1B18F4130080E571 /* icon-find.png */,
+				A7B498FC1B18F4130080E571 /* icon-find2.png */,
+				A7B498FD1B18F4130080E571 /* icon-find2@2x.png */,
+				A7B498FE1B18F4130080E571 /* icon-find3.png */,
+				A7B498FF1B18F4130080E571 /* icon-find3@2x.png */,
+				A7B499001B18F4130080E571 /* icon-find4.png */,
+				A7B499011B18F4130080E571 /* icon-find4@2x.png */,
+				A7B499021B18F4130080E571 /* icon-find5.png */,
+				A7B499031B18F4130080E571 /* icon-find5@2x.png */,
+				A7B499041B18F4130080E571 /* icon-find6.png */,
+				A7B499051B18F4130080E571 /* icon-find6@2x.png */,
+				A7B499061B18F4130080E571 /* icon-find7.png */,
+				A7B499071B18F4130080E571 /* icon-find7@2x.png */,
+				A7B499081B18F4130080E571 /* icon-find@2x.png */,
+				A7B499091B18F4130080E571 /* User.png */,
+				A7B4990A1B18F4130080E571 /* User@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A7B4990B1B18F4130080E571 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A7B4990C1B18F4130080E571 /* SettingViewController.h */,
+				A7B4990D1B18F4130080E571 /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B498C31B18F3110080E571 /* CamFinder-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B498EA1B18F3120080E571 /* Build configuration list for PBXNativeTarget "CamFinder-App" */;
+			buildPhases = (
+				A7B498C01B18F3110080E571 /* Sources */,
+				A7B498C11B18F3110080E571 /* Frameworks */,
+				A7B498C21B18F3110080E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CamFinder-App";
+			productName = "CamFinder-App";
+			productReference = A7B498C41B18F3110080E571 /* CamFinder-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7B498DF1B18F3110080E571 /* CamFinder-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B498ED1B18F3120080E571 /* Build configuration list for PBXNativeTarget "CamFinder-AppTests" */;
+			buildPhases = (
+				A7B498DC1B18F3110080E571 /* Sources */,
+				A7B498DD1B18F3110080E571 /* Frameworks */,
+				A7B498DE1B18F3110080E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B498E21B18F3110080E571 /* PBXTargetDependency */,
+			);
+			name = "CamFinder-AppTests";
+			productName = "CamFinder-AppTests";
+			productReference = A7B498E01B18F3110080E571 /* CamFinder-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B498BC1B18F3110080E571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "chicken-little";
+				TargetAttributes = {
+					A7B498C31B18F3110080E571 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A7B498DF1B18F3110080E571 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A7B498C31B18F3110080E571;
+					};
+				};
+			};
+			buildConfigurationList = A7B498BF1B18F3110080E571 /* Build configuration list for PBXProject "CamFinder-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B498BB1B18F3110080E571;
+			productRefGroup = A7B498C51B18F3110080E571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B498C31B18F3110080E571 /* CamFinder-App */,
+				A7B498DF1B18F3110080E571 /* CamFinder-AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B498C21B18F3110080E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B4990F1B18F4130080E571 /* CamFinder-Map@2x.png in Resources */,
+				A7B499151B18F4130080E571 /* icon-find4.png in Resources */,
+				A7B4991E1B18F4130080E571 /* User.png in Resources */,
+				A7B499111B18F4130080E571 /* icon-find2.png in Resources */,
+				A7B4990E1B18F4130080E571 /* CamFinder-Map.png in Resources */,
+				A7B498D61B18F3110080E571 /* Main.storyboard in Resources */,
+				A7B4991D1B18F4130080E571 /* icon-find@2x.png in Resources */,
+				A7B4991B1B18F4130080E571 /* icon-find7.png in Resources */,
+				A7B499161B18F4130080E571 /* icon-find4@2x.png in Resources */,
+				A7B499141B18F4130080E571 /* icon-find3@2x.png in Resources */,
+				A7B499191B18F4130080E571 /* icon-find6.png in Resources */,
+				A7B499101B18F4130080E571 /* icon-find.png in Resources */,
+				A7B4991C1B18F4130080E571 /* icon-find7@2x.png in Resources */,
+				A7B499181B18F4130080E571 /* icon-find5@2x.png in Resources */,
+				A7B498DB1B18F3110080E571 /* LaunchScreen.xib in Resources */,
+				A7B4991F1B18F4130080E571 /* User@2x.png in Resources */,
+				A7B4991A1B18F4130080E571 /* icon-find6@2x.png in Resources */,
+				A7B498D81B18F3110080E571 /* Images.xcassets in Resources */,
+				A7B499171B18F4130080E571 /* icon-find5.png in Resources */,
+				A7B499131B18F4130080E571 /* icon-find3.png in Resources */,
+				A7B499121B18F4130080E571 /* icon-find2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B498DE1B18F3110080E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B498C01B18F3110080E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B498D01B18F3110080E571 /* CamFinder_App.xcdatamodeld in Sources */,
+				A7B498CA1B18F3110080E571 /* main.m in Sources */,
+				A7B498F71B18F3960080E571 /* ViewController.m in Sources */,
+				A7B498F61B18F3960080E571 /* AppDelegate.m in Sources */,
+				A7B499201B18F4130080E571 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B498DC1B18F3110080E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B498E71B18F3120080E571 /* CamFinder_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7B498E21B18F3110080E571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B498C31B18F3110080E571 /* CamFinder-App */;
+			targetProxy = A7B498E11B18F3110080E571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B498D41B18F3110080E571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B498D51B18F3110080E571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7B498D91B18F3110080E571 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B498DA1B18F3110080E571 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B498E81B18F3120080E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7B498E91B18F3120080E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B498EB1B18F3120080E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CamFinder-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7B498EC1B18F3120080E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CamFinder-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7B498EE1B18F3120080E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CamFinder-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamFinder-App.app/CamFinder-App";
+			};
+			name = Debug;
+		};
+		A7B498EF1B18F3120080E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CamFinder-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamFinder-App.app/CamFinder-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B498BF1B18F3110080E571 /* Build configuration list for PBXProject "CamFinder-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B498E81B18F3120080E571 /* Debug */,
+				A7B498E91B18F3120080E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B498EA1B18F3120080E571 /* Build configuration list for PBXNativeTarget "CamFinder-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B498EB1B18F3120080E571 /* Debug */,
+				A7B498EC1B18F3120080E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B498ED1B18F3120080E571 /* Build configuration list for PBXNativeTarget "CamFinder-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B498EE1B18F3120080E571 /* Debug */,
+				A7B498EF1B18F3120080E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7B498CE1B18F3110080E571 /* CamFinder_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7B498CF1B18F3110080E571 /* CamFinder_App.xcdatamodel */,
+			);
+			currentVersion = A7B498CF1B18F3110080E571 /* CamFinder_App.xcdatamodel */;
+			path = CamFinder_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7B498BC1B18F3110080E571 /* Project object */;
+}
